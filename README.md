@@ -60,8 +60,8 @@ project/
 ## 📧 Email Output Example
 Subject: Bitcoin Info
 
-The maximum Bitcoin price in the last hour was: $29,534.23
-Time it occurred (Israel time): 2025-08-07 13:52:00
+The maximum Bitcoin price in the last hour was: $117,684.90
+Time it occurred (Israel time): 2025-07-12 22:19:39
 
 See the graph attached.
 
