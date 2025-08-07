@@ -71,6 +71,12 @@ See the graph attached.
 
 ---
 
+**Email Example**:
+![Email preview](The_received_email.jpg)
+
+---
+
+
 ## 🛡️ Security Note
 The script uses an **App Password** stored in the environment variable: MAIL_APP_PASS
 
