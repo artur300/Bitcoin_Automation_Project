@@ -1,4 +1,4 @@
-# 📈 Bitcoin Price Tracker & Email Reporter
+#  Bitcoin Price Tracker & Email Reporter
 
 This project is a **Python-based automation tool** that monitors the real-time price of **Bitcoin (BTC)** for one hour, fetching data every minute via the **Coinbase API**.  
 
@@ -9,7 +9,7 @@ At the end of the tracking period, it:
 
 ---
 
-## 🚀 Features
+##  Features
 - **Automated Data Fetching** – Retrieves Bitcoin's USD value every minute for 60 minutes
 - **Data Storage** – Saves all prices and timestamps to a local JSON file
 - **Data Visualization** – Creates a clear line graph of price changes over the hour
@@ -19,7 +19,7 @@ At the end of the tracking period, it:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **Python 3**
 - `requests` – API integration
 - `json` – Data storage
@@ -30,7 +30,7 @@ At the end of the tracking period, it:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 project/
 
 ├── main.py # Main script – orchestrates the process
@@ -48,7 +48,7 @@ project/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 1. **Initialization** – Old files are deleted to ensure a clean run
 2. **Price Tracking** – The script fetches the Bitcoin price from [Coinbase Spot Price API](https://developers.coinbase.com/api/v2#get-spot-price) every minute for one hour
 3. **Data Logging** – Each price and timestamp are saved to a JSON file
@@ -57,7 +57,7 @@ project/
 
 ---
 
-## 📧 Email Output Example
+##  Email Output Example
 Subject: Bitcoin Info
 
 The maximum Bitcoin price in the last hour was: $117,684.90
@@ -77,12 +77,12 @@ See the graph attached.
 ---
 
 
-## 🛡️ Security Note
+##  Security Note
 The script uses an **App Password** stored in the environment variable: MAIL_APP_PASS
 
 This prevents hardcoding sensitive credentials directly into the code.
 
-## ▶️ How to Run
+##  How to Run
 1. Clone this repository
 2. Install required dependencies:
    ```bash
@@ -99,13 +99,13 @@ Run the script: python main.py
 
 
 
-## 👤 Author
+##  Author
 
 Arthur Anikin
 
-📧 arturaniki@gmail.com
+ arturaniki@gmail.com
 
-💼 LinkedIn https://www.linkedin.com/in/arthur-anikin-421a87253/
+ LinkedIn https://www.linkedin.com/in/arthur-anikin-421a87253/
 
 
 
